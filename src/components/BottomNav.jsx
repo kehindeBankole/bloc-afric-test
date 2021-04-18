@@ -5,7 +5,7 @@ function BottomNav() {
   return (
     <div id="bottom-nav" className="d-flex justify-content-between">
       <div className="home d-flex justify-content-center">
-      <NavLink to="/home" className="link" activeClassName="active-link">
+      <NavLink to="/" className="link" activeClassName="active-link" exact>
       <div className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"

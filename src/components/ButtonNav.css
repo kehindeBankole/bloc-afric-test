@@ -3,3 +3,14 @@
     width: 100%;
     background-color: red;
 }
+.link{
+    text-decoration: none;
+   color: #F7354F;
+    opacity: 0.6;
+}
+/* .link svg{
+    opacity: 0.7;
+} */
+.active-link{
+ opacity: 1;
+}

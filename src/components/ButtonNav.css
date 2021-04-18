@@ -11,3 +11,14 @@
 .active-link{
  opacity: 1;
 }
+.bottom{
+    display: block;
+}
+@media (min-width:576px) {
+    p#warning{
+      display: block !important;
+    }
+    .bottom{
+        display: none;
+    }
+  }

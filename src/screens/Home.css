@@ -68,3 +68,17 @@ color:white;
     height: 30px;
     background-color: #EFEFEF;
 }
+p#warning{
+    display: none;
+  }
+.show{
+    display: block;
+}
+@media (min-width:576px) {
+    p#warning{
+      display: block !important;
+    }
+    .show{
+        display: none;
+    }
+  }

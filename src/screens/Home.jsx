@@ -6,7 +6,9 @@ import icon3 from "../assets/icon3.png";
 function Home() {
   return (
     <div>
-      <div className="balance-card">
+  <p id="warning">please view on iphone as given in the design</p>
+     <div className="show">
+     <div className="balance-card">
         <div className="afya">
           <div className="aff">
             <div className="afya-icon mb-3">
@@ -99,6 +101,7 @@ function Home() {
       </div>
    
    <div className="space"></div>
+     </div>
     </div>
 
     
